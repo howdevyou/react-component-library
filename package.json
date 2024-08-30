@@ -4,6 +4,9 @@
   "description": "A react component library with minimal setup",
   "main": "index.js",
   "scripts": {
+    "build": "npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs",
     "test": "jest --config jest.config.ts",
     "prepare": "husky install"
   },
