@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+	  "target": "es2016",
+	  "module": "esnext",
+	  "strict": true,
+	  "esModuleInterop": true,
+	  "skipLibCheck": true,
+	  "forceConsistentCasingInFileNames": true,
+	  "moduleResolution": "node",
+	  "jsx": "react",
+	  "outDir": "dist/esm",
+	  "allowSyntheticDefaultImports": true,
+	  "declaration": true,
+	  "isolatedModules": true,
+	  "noEmitOnError": true,
+	  "noImplicitReturns": true,
+	  "noUnusedLocals": true,
+	  "noUnusedParameters": true,
+	  "removeComments": true,
+  }
+  }

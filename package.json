@@ -1,0 +1,38 @@
+{
+  "name": "react-component-library",
+  "version": "1.0.0",
+  "description": "A react component library with minimal setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config jest.config.ts",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/howdevyou/react-component-library.git"
+  },
+  "keywords": [
+    "react",
+    "react-component"
+  ],
+  "author": "Sumit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/howdevyou/react-component-library/issues"
+  },
+  "homepage": "https://github.com/howdevyou/react-component-library#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^19.4.1",
+    "@commitlint/config-conventional": "^19.4.1",
+    "@jest/globals": "^29.7.0",
+    "@testing-library/react": "^16.0.1",
+    "@types/react": "^18.3.4",
+    "husky": "^8.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "react": "^18.3.1",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
