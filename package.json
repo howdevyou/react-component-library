@@ -1,10 +1,14 @@
 {
-  "name": "react-component-library",
+  "name": "@sosumit_001/react-component-library",
   "version": "1.0.0",
   "description": "A react component library with minimal setup",
-  "main": "index.js",
+  "main": "./dist/cjs/Button.js",
+  "module": "./dist/esm/Button.js",
+  "type": "./dist/esm/Button.d.ts",
+  "files":["./dist"],
   "scripts": {
-    "build": "npm run build:esm && npm run build:cjs",
+    "clean": "rimraf dist",
+    "build": "npm run clean && npm run build:esm && npm run build:cjs",
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir dist/cjs",
     "test": "jest --config jest.config.ts",
@@ -37,5 +41,8 @@
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "rimraf": "^6.0.1"
   }
 }
